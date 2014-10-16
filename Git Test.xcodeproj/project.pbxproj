@@ -21,6 +21,7 @@
 		04DDE24319EFB71D004AE7AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DDE22519EFB71D004AE7AB /* UIKit.framework */; };
 		04DDE24B19EFB71D004AE7AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DDE24919EFB71D004AE7AB /* InfoPlist.strings */; };
 		04DDE24D19EFB71D004AE7AB /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE24C19EFB71D004AE7AB /* Git_TestTests.m */; };
+		04DDE25819EFBAC4004AE7AB /* DMFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE25719EFBAC4004AE7AB /* DMFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04DDE24819EFB71D004AE7AB /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		04DDE24A19EFB71D004AE7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04DDE24C19EFB71D004AE7AB /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		04DDE25619EFBAC4004AE7AB /* DMFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFTest.h; sourceTree = "<group>"; };
+		04DDE25719EFBAC4004AE7AB /* DMFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				04DDE23719EFB71D004AE7AB /* DMFViewController.m */,
 				04DDE23919EFB71D004AE7AB /* Images.xcassets */,
 				04DDE22819EFB71D004AE7AB /* Supporting Files */,
+				04DDE25619EFBAC4004AE7AB /* DMFTest.h */,
+				04DDE25719EFBAC4004AE7AB /* DMFTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				04DDE23219EFB71D004AE7AB /* DMFAppDelegate.m in Sources */,
 				04DDE23819EFB71D004AE7AB /* DMFViewController.m in Sources */,
 				04DDE22E19EFB71D004AE7AB /* main.m in Sources */,
+				04DDE25819EFBAC4004AE7AB /* DMFTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
